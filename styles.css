@@ -1,0 +1,73 @@
+:root {
+    --primaryColor: #6367e5;
+    --secondaryColor: #ffe000;
+    --secondaryColor2: #fffbe5;
+    --fontColor: #222;
+    --whiteColor: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primaryColor);
+    border-bottom: 2px solid #f5f5f5;
+    z-index: 99;
+}
+
+/* burger-btn used for mobile view */
+.burger-btn {
+    display: none;
+}
+
+.logo {
+    color: var(--whiteColor);
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1;
+}
+
+.nav-menus a {
+    color: var(--whiteColor);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.nav-menus a:hover {
+    text-decoration: underline;
+}
+
+.btn-login {
+    border: 2px solid var(--secondaryColor);
+    background-color: var(--secondaryColor);
+    border-radius: 24px;
+    color: var(--fontColor);
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: transparent;
+    color: var(--whiteColor);
+}
