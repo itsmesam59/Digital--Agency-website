@@ -216,3 +216,150 @@ header {
     width: 100%;
     margin-bottom: 1rem;
 }
+
+.about {
+    width: 100%;
+    height: auto;
+    padding: 3% 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap: 1rem;
+    background-color: var(--secondaryColor2);
+}
+
+.about-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-wrapper p {
+    line-height: 1.5;
+}
+
+.about-features {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.about-card {
+    text-align: left;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    border-radius: 24px;
+    border-bottom: 5px solid var(--secondaryColor);
+}
+
+.about-card:hover {
+    background-color: var(--secondaryColor);
+    color: var(--fontColor);
+    border-bottom: 5px solid var(--primaryColor);
+}
+
+.about-img {
+    width: 80%;
+}
+
+.features-img {
+    width: 50%;
+    height: 50%;
+}
+
+.clients {
+    background-color: var(--secondaryColor2);
+    padding: 5%;
+}
+
+.clients-wrapper {
+    width: 100%;
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    padding: 2rem;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border-radius: 24px;
+}
+
+.clients-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients-detail button {
+    background-color: var(--secondaryColor);
+    color: var(--fontColor);
+    width: 50%;
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    border: 2px solid var(--secondaryColor);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.clients-detail button:hover {
+    background-color: transparent;
+    color: var(--secondaryColor);
+}
+
+.clients-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 800px;
+}
+
+.clients-box {
+    padding: 6%;
+    display: flex;
+    cursor: pointer;
+}
+
+.clients-box img {
+    width: 100px;
+
+}
+
+.white {
+    background-color: var(--whiteColor);
+}
+
+.yellow {
+    background-color: var(--secondaryColor);
+}
+
+.newsletter {
+    width: 100%;
+    height: auto;
+    padding: 5% 5% 2% 5%;
+    background-color: var(--secondaryColor);
+    color: var(--fontColor);
+}
+
+.newsletter-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.newsletter-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter-img {
+    height: 60%;
+    width: 60%;
+    justify-items: center;
+    padding: 3%;
+}
