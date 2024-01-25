@@ -1,10 +1,7 @@
 :root {
-    /* --primaryColor: #6367e5;
+    --primaryColor: #6367e5;
     --secondaryColor: #ffe000;
-    --secondaryColor2: #fffbe5; */
-    --primaryColor: #24e05c;
-    --secondaryColor: #39c0db;
-    --secondaryColor2: #fffbe5;
+    --secondaryColor2: #fffbe5; 
     --fontColor: #222;
     --whiteColor: #fff;
 }
@@ -155,7 +152,7 @@ header {
 }
 
 .custom-shape-divider-top-1705824283 .shape-fill {
-    fill: #98e991;
+    fill: #7a7ddd;
 }
 
 .category {
